@@ -249,27 +249,27 @@ h3 {
 }
 
 
-/* Portfolio Styles */
+/* Projects Styles */
 
-#portfolio-section {
+#projects {
     background-color: rgb(202 22 52 / 13%);
 }
 
-.portfolio-title-line {
+.project-title-line {
     background-color: #050610f1;
     width: 60px;
     height: 4px;
     margin: auto;
 }
 
-.portfolio-items-wrapper {
+.project-items-wrapper {
     position: relative;
     width: 1200px;
     height: 350px;
     margin: 80px auto 0;
 }
 
-.portfolio-item-wrapper {
+.project-item-wrapper {
     position: relative;
     width: calc(400px - 30px);
     height: calc(261px - 30px);
@@ -281,7 +281,7 @@ h3 {
     box-shadow: 0 5px 10px rgba(0,0,0,.8);
 }
 
-.portfolio-item-wrapper:before {
+.project-item-wrapper:before {
     content: '';
     position: absolute;
     top: 10px;
@@ -297,12 +297,12 @@ h3 {
     z-index: 1;
 }
 
-.portfolio-item-wrapper:hover:before {
+.project-item-wrapper:hover:before {
     transform: scaleX(1);
     opacity: 1;
 }
 
-.portfolio-item-wrapper:after {
+.project-item-wrapper:after {
     content: '';
     position: absolute;
     top: 10px;
@@ -318,23 +318,23 @@ h3 {
     z-index: 1;
 }
 
-.portfolio-item-wrapper:hover:after {
+.project-item-wrapper:hover:after {
     transform: scaleY(1);
     opacity: 1;
 }
 
-.portfolio-img {
+.project-img {
     position: relative;
     width: 100%;
     transition: 0.5s;
 }
 
-.portfolio-item-wrapper:hover img {
+.project-item-wrapper:hover img {
     opacity: .2;
     transform: scale(1.2);
 }
 
-.portfolio-text-wrapper {
+.project-text-wrapper {
     position: absolute;
     width: 100%;
     top: 50%;
@@ -344,7 +344,7 @@ h3 {
     text-align: center;
 }
 
-.portfolio-text-wrapper h4 {
+.project-text-wrapper h4 {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -355,7 +355,7 @@ h3 {
     visibility: hidden;
 }
 
-.portfolio-item-wrapper:hover .portfolio-text-wrapper h4 {
+.project-item-wrapper:hover .project-text-wrapper h4 {
     opacity:1;
     visibility: visible;
     transform: translateY(0px);
@@ -431,13 +431,13 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 
-    .portfolio-items-wrapper {
+    .project-items-wrapper {
         width: 800px;
         height: auto;
         margin: 80px auto 80px;
     }
 
-    .portfolio-item-wrapper {
+    .project-item-wrapper {
         width: calc(400px - 30px);
         height: calc(261px - 30px); 
     }
@@ -518,19 +518,19 @@ footer {
         width: 30px;
     }
 
-    /* Portfolio Style */
+    /* project Style */
 
-    .portfolio-title-line {
+    .project-title-line {
         width: 45px;
     }
 
-    .portfolio-items-wrapper {
+    .project-items-wrapper {
         width: 100%;
         height: auto;
         margin: 80px auto 80px;
     }
 
-    .portfolio-item-wrapper {
+    .project-item-wrapper {
         width: calc(350px - 30px);
         height: calc(228px - 30px); 
         margin: 20px auto;
