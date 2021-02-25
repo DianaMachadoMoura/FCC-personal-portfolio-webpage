@@ -3,8 +3,8 @@
 
 /* Master Styles */
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'PT Sans', sans-serif;
     color:#050610f1;
 }
@@ -358,7 +358,7 @@ h3 {
 .project-item-wrapper:hover .project-text-wrapper h4 {
     opacity:1;
     visibility: visible;
-    transform: translateY(0px);
+    transform: translateY(0);
     transition-delay: 0.2s;
 }
 
@@ -493,7 +493,7 @@ footer {
     }
 
     .tech-skills-wrapper h3 {
-        padding-bottom: 0px;
+        padding-bottom: 0;
         font-size: 1.1em;
     }
 
